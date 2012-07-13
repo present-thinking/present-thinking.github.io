@@ -1,44 +1,43 @@
+@font-face {
+	font-family: geosans;
+	src: url('geo_sans_light/Geosanslight.ttf');
+}
+
 *{
 	margin: 0;
 }
+
 body {
-	background-image: url(images/grain.png);
+	background-image: url(images/linen_brown.png);
 	height: 100%;
 }
-.top {
-	background: url(images/1-bg-paper.jpg) repeat-x;
-}
+
 .logo {
-	background: url(images/logo.png) no-repeat;
-	background-position: center;
-	padding-top: 25%;
-}
-.shadow {
-	background: url(images/shadow.png) repeat-x;
-}
-.footer {
-	margin: auto;
-	width: 60%;
-}
-p {
-	text-align: center;
-	color: #ffffff;
-	font-family: Verdana, sans-serif;
-}
-.navigation {
-	text-align: center;
-}
-img.center {
 	display: block;
-	margin: auto;
-	padding-bottom: 10px;
+	margin: 100px auto;
 }
-img.link {
-	padding-bottom: 10px;
+
+h2 {
+	text-align: center;
+	opacity: 0.4;
+	font-family: geosans;
+	font-size: 40pt;
+	color: #ffffff;
 }
-img.link_separator {
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	margin-left: 5px;
-	margin-right: 5px;
+
+p {
+	font-family: geosans;
+	opacity: 0.6;
+	text-align: left;
+	font-size: 20pt;
+	color: #ffffff;
+}
+
+hr {
+	margin: 45px 0;
+}
+
+img {
+	margin: 0 20px;
+	vertical-align: middle;
 }
