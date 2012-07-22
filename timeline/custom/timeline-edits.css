@@ -1,0 +1,14 @@
+#timeline{
+	background:none;
+}
+
+/* The individual events in the slider */
+.slider .slider-container-mask .slider-container{
+	background:none;
+}
+
+/* Setting a custom background image */
+#timeline div.navigation{
+    background: url('../img/timeline_bg.jpg') repeat;
+    border-top:none;
+}
