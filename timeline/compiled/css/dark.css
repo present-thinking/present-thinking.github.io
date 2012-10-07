@@ -320,3 +320,15 @@
 	background-image: none;
 }
 
+/* change timeline item header font */
+.vmm-timeline .feature h1, .vmm-timeline .feature h2, .vmm-timeline .feature h3, .vmm-timeline .feature h4, .vmm-timeline .feature h5, .vmm-timeline .feature h6 {
+	font-family: 'Orientia', sans-serif;
+}
+
+/* remove background from tweets */
+.vmm-timeline blockquote, .vmm-timeline blockquote p, .slider .slider-item .content .twitter blockquote p, .slider .slider-item .content .plain-text-quote blockquote p, .slider .slider-item .content .storify blockquote p, .slider .slider-item .content .googleplus blockquote p {
+	background: none;
+}
+
+
+
