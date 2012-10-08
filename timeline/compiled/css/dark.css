@@ -330,5 +330,9 @@
 	background: none;
 }
 
+/* remove border from twitter profile images */
+.vmm-timeline img {
+	border: none;
+}
 
 

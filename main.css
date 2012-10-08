@@ -1,7 +1,6 @@
-
-
 *{
 	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
@@ -11,19 +10,23 @@ body {
 
 .logo {
 	display: block;
-	margin: 100px auto;
+	margin: 100px auto 50px auto;
+}
+
+.contact {
+	display: block;
+	margin: 50px auto;
+	text-align: center;
 }
 
 h2 {
 	text-align: center;
 	opacity: 0.4;
-	font-family: geosans;
 	font-size: 40pt;
 	color: #ffffff;
 }
 
 p {
-	font-family: geosans;
 	opacity: 0.6;
 	text-align: left;
 	font-size: 20pt;
@@ -35,7 +38,7 @@ hr {
 }
 
 img {
-	margin: 0 20px;
+	margin: 0 0 0 30px;
 	vertical-align: middle;
 }
 
